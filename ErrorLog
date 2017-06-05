@@ -1,0 +1,197 @@
+* * * * * * * * * * * * * * * *<<Error List>> * * * * * * * * * * * * * * 
+*                                                                        *
+* <1> - tcp packet error [SYN,FIN] NO current setup                      *
+* <2> - tcp packet error [SYN,RST] NO current setup                      *
+* <3> - tcp packet error [FIN,RST] NO current setup                      *
+* <4> - tcp packet error [ACK,FIN] NO ACK not setup and FIN setup        *
+* <5> - tcp packet error [ACK,PSH] NO ACK not setup and PSH setup        *
+* <6> - tcp packet error [ACK,URG] NO ACK not setup and URG setup        *
+* <7> - tcp packet error NOT All setup                                   *
+* <8> - tcp packet error [FIN] only FIN setup                            *
+* <9> - tcp packet error [PSH,FIN] only FIN,PSH setup                    *
+* <10> - tcp header can not be 5 low                                     *
+*									 *
+* <100> - ip_version must be 4 or 6                                      *
+* <101> - ttl exceed                                                     *
+* <102> - ttl can not be negative number or zero                         *
+* <103> - ip header length must be 5 or more                             *
+* <104> - tcp ip protocol number must be 6                               *
+* <105> - iph type of service must be 0 ~ 6                              *
+* <106> - total_length Inconsistency                                     *
+* <107> - ip check_sum error  						 *
+* <108> - fragmentation not possible this packet but offsetfield is not 1 *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:04:26
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:04:31
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:04:36
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:05:08
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:05:08
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:05:27
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:05:27
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:07:45
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 05:07:45
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 13:42:44
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 13:42:44
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 13:43:01
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 13:43:01
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 13:43:03
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 13:43:03
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 13:43:04
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
+--------------------------------------------------------------------
+TIME : 2016-12-20 13:43:04
+IP_VERSION : IP v4
+SRC IP: 10.0.22.232
+DEST IP: 10.0.22.255
+SOURCE PORT :  1234
+DESTINATAION PORT :  1234
+ERROR NUMBER : 1 2 3 101
+-------------------------------------------------------------------
+
